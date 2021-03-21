@@ -1,0 +1,15 @@
+.App {
+  display: grid;
+  min-height: 100vh;
+  height: 100%;
+  grid-template-rows: 10rem 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #202129;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.app-list {
+  align-self: start;
+}

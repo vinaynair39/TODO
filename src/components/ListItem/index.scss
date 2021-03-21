@@ -1,0 +1,47 @@
+.list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid #09f;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  p {
+    padding: 1rem;
+    font-size: 3vh;
+    margin: 0;
+  }
+  .buttons {
+    svg {
+      width: 2rem;
+      height: 2rem;
+      padding-left: 2rem;
+    }
+    button {
+      background: none;
+      outline: none;
+      border: none;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+
+    .button-edit {
+      svg {
+        path {
+          fill: #09f;
+        }
+      }
+    }
+
+    .button-delete {
+      svg {
+        path {
+          fill: #ff3366;
+        }
+      }
+    }
+  }
+}
